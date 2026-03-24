@@ -3,7 +3,7 @@
 
 // Firebase config (paste YOUR config here)
 const firebaseConfig = {
-  apiKey: "AIzaSyAbo0RI1oKtBUr7A3jZLvhs9zXpGe3DC8k",
+  apiKey: "AIzaSyBLRdi8LwSqPNpwMGoMDrQrLG2fPl-DZTw",
   authDomain: "task-manager-b6b4c.firebaseapp.com",
   projectId: "task-manager-b6b4c",
   storageBucket: "task-manager-b6b4c.firebasestorage.app",
