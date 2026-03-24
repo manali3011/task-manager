@@ -1,0 +1,117 @@
+body {
+  background-color: #EFECE3;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  color: #4A70A9;
+  font-weight: bold;
+}
+
+.card {
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+
+.btn-primary {
+  background-color: #4A70A9;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #3b5c8a;
+}
+
+.task-card {
+  background-color: #8FABD4;
+  border-radius: 10px;
+  padding: 15px;
+  color: #000000;
+  position: relative;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.task-actions {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.task-actions button {
+  margin-left: 5px;
+}
+.overdue {
+  border: 2px solid red;
+  background-color: #f8d7da !important;
+}
+
+.badge {
+  margin-top: 8px;
+}
+
+.task-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.task-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+.dark-mode {
+  background-color: #121212 !important;
+  color: #ffffff !important;
+}
+
+.dark-mode .card {
+  background-color: #1e1e1e;
+}
+
+.dark-mode .task-card {
+  background-color: #2a2a2a;
+  color: #fff;
+}
+
+.task-card {
+  animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+button {
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+.card {
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+}
+.task-card {
+  transition: 0.3s;
+}
+
+.task-card:hover {
+  transform: translateY(-5px);
+}
+button {
+  transition: 0.2s;
+}
